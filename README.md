@@ -38,11 +38,11 @@ Pillow
 
 **🤖 Model Details**
 
-Base Model: ResNet50 (Pretrained)
-Transfer Learning: Enabled
-Fine-tuning: Last layers unfrozen
-Regularization: Dropout layer
-Image Size: 224 × 224
+- Base Model: ResNet50 (Pretrained)
+- Transfer Learning: Enabled
+- Fine-tuning: Last layers unfrozen
+- Regularization: Dropout layer
+- Image Size: 224 × 224
 
 **📈 Output**
 
@@ -57,10 +57,10 @@ The Streamlit app allows users to:
   
 **🚀 How to Run Locally**
 
-git clone https://github.com/<your-username>/car-damage-detection-cnn.git
-cd car-damage-detection-cnn
-pip install -r requirements.txt
-streamlit run app.py
+- git clone https://github.com/<your-username>/car-damage-detection-cnn.git
+- cd car-damage-detection-cnn
+- pip install -r requirements.txt
+- streamlit run app.py
 
 ## **📁 Project Structure**
 ```
@@ -88,17 +88,17 @@ car-damage-detection-cnn/
   
 **🔥 Key Highlights**
 
-Deep Learning (CNN + Transfer Learning)
-Real-world computer vision application
-End-to-end pipeline (image → prediction → UI)
-Practical deployment using Streamlit
+- Deep Learning (CNN + Transfer Learning)
+- Real-world computer vision application
+- End-to-end pipeline (image → prediction → UI)
+- Practical deployment using Streamlit
 
 **🔮 Future Improvements**
 
-Use object detection (YOLO) for damage localization
-Support multi-image analysis
-Deploy as a web/mobile application
-Improve dataset and model accuracy
+- Use object detection (YOLO) for damage localization
+- Support multi-image analysis
+- Deploy as a web/mobile application
+- Improve dataset and model accuracy
 
 **📌 Summary**
 

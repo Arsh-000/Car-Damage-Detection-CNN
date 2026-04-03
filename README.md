@@ -16,12 +16,11 @@ This project solves the problem by automating damage detection using computer vi
 
 **🧠 Solution Approach**
 The system follows a real-world deep learning pipeline:
-
 - Image preprocessing and normalization
 - Transfer learning using ResNet50
 - Fine-tuning deeper layers for improved accuracy
 - Classification into predefined damage categories
-- 
+  
 **📊 Damage Categories**
 Front Normal
 Front Breakage
@@ -38,7 +37,6 @@ Streamlit
 Pillow
 
 **🤖 Model Details**
-
 Base Model: ResNet50 (Pretrained)
 Transfer Learning: Enabled
 Fine-tuning: Last layers unfrozen
@@ -60,7 +58,8 @@ cd car-damage-detection-cnn
 pip install -r requirements.txt
 streamlit run app.py
 
-**📁 Project Structure**
+## **📁 Project Structure**
+```
 car-damage-detection-cnn/
 │
 ├── app.py
@@ -74,6 +73,7 @@ car-damage-detection-cnn/
 ├── notebooks/
 │   ├── damage_prediction.ipynb
 │   └── hyperparameter_tuning.ipynb
+```
 
 **💡 Business Impact**
 - Enables automated vehicle inspection

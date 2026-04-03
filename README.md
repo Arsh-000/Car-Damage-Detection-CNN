@@ -37,6 +37,7 @@ Streamlit
 Pillow
 
 **🤖 Model Details**
+
 Base Model: ResNet50 (Pretrained)
 Transfer Learning: Enabled
 Fine-tuning: Last layers unfrozen
@@ -44,15 +45,18 @@ Regularization: Dropout layer
 Image Size: 224 × 224
 
 **📈 Output**
+
 Predicted damage category for the uploaded image
 
 **🖥️ Web Application**
+
 The Streamlit app allows users to:
 - Upload a car image
 - Process the image through the trained model
 - Get instant classification results
   
 **🚀 How to Run Locally**
+
 git clone https://github.com/<your-username>/car-damage-detection-cnn.git
 cd car-damage-detection-cnn
 pip install -r requirements.txt
@@ -76,22 +80,26 @@ car-damage-detection-cnn/
 ```
 
 **💡 Business Impact**
+
 - Enables automated vehicle inspection
 - Reduces manual assessment effort
 - Speeds up insurance claim processing
 - Scalable for real-world deployment
   
 **🔥 Key Highlights**
+
 Deep Learning (CNN + Transfer Learning)
 Real-world computer vision application
 End-to-end pipeline (image → prediction → UI)
 Practical deployment using Streamlit
 
 **🔮 Future Improvements**
+
 Use object detection (YOLO) for damage localization
 Support multi-image analysis
 Deploy as a web/mobile application
 Improve dataset and model accuracy
 
 **📌 Summary**
+
 This project demonstrates how deep learning and computer vision can be applied to automate real-world problems like vehicle damage assessment, improving efficiency and scalability.

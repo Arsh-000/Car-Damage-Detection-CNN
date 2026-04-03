@@ -1,6 +1,7 @@
 # 🚗 Car Damage Detection using Deep Learning (CNN)
 
 **📌 Overview**
+
 This project builds a deep learning-based Car Damage Detection system that classifies vehicle images into multiple damage categories using a Convolutional Neural Network (ResNet50).
 The system is deployed using a Streamlit web application, allowing users to upload car images and get instant damage classification.
 
